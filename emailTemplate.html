@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notificação de Cobrança</title>
+</head>
+<body style="margin:0; padding:0; font-family: Arial, sans-serif; background-color:#f7f7f7;">
+
+  <table align="center" cellpadding="0" cellspacing="0"
+         style="width:100%; max-width:600px; margin:0 auto; background:#ffffff; border-radius:6px; overflow:hidden;">
+    
+    <!-- LOGO -->
+    <tr>
+      <td align="center" style="padding:20px; background:#ffffff;">
+        <img src="https://adrianoecoutoadv.com.br/wp-content/uploads/2022/10/logo.png"
+             alt="Logo"
+             style="max-width:100%; height:auto; display:block;"
+             width="150">
+      </td>
+    </tr>
+
+    <!-- TÍTULO DE ALERTA -->
+    <tr>
+      <td style="background:#000000; color:#ffffff; text-align:center; font-size:20px; font-weight:bold; padding:20px;">
+        ⚠️ NOTIFICAÇÃO EXTRAJUDICIAL ⚠️
+      </td>
+    </tr>
+
+    <!-- MENSAGEM -->
+    <tr>
+      <td style="padding:20px; color:#333333; font-size:14px; line-height:1.6;">
+        <p>Prezado(a) Sr(a). <b><?= nome ?></b>,</p>
+        <p>Seus dados foram sinalizados para a próxima fase de cobrança.</p>
+        <p>
+          Valor devido: <b><?= valor ?></b><br>
+          Vencimento: <b><?= vencimento ?></b>
+        </p>
+
+        <!-- BLOCO CINZA DESTACADO COM MENSAGEM COMPLETA -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f2f2f2; border-radius:6px; margin-top:15px;">
+  <tr>
+    <td style="padding:15px; font-family: Arial, sans-serif; font-size:14px; color:#333;">
+      
+      <p>Conforme informado anteriormente, consta em aberto o pagamento referente a honorários advocatícios previstos no contrato de prestação de serviços com vencimento em <strong><?= vencimento ?></strong>, no valor de <strong><?= valor ?></strong>.</p>
+
+      <p>Este e-mail trata-se de um lembrete de que o prazo para regularização do débito é de <strong>30 dias a contar do recebimento do primeiro aviso</strong>. Até o momento, não identificamos manifestação ou quitação do valor devido.</p>
+
+      <p>Seus dados foram sinalizados para a próxima fase de cobrança, e sua pendência agora está sob análise de escalonamento.</p>
+
+      <p>⚠️ O desconto ofertado anteriormente foi cancelado</p>
+      <p>⚠️ A partir de agora seu débito pode ser encaminhado para cobrança extrajudicial</p>
+
+      <p>⏳ Sem a sua regularização, novas estratégias de cobrança serão adotadas, sem previsão de novas flexibilizações.</p>
+
+      <p>⚠️ Seu CPF pode ser comprometido nos próximos acionamentos</p>
+      <p>⚠️ Esta pode ser sua última chance de negociar sua dívida</p>
+
+      <p>Após a data de vencimento, novas medidas poderão ser aplicadas.</p>
+
+      <p><strong>A decisão está nas suas mãos.</strong></p>
+
+      <p>Atenciosamente,<br>
+      Adriano e Couto<br>
+      
+    </td>
+  </tr>
+</table>
+
+
+    <!-- BOTÃO DE AÇÃO -->
+    <tr>
+      <td align="center" style="padding:20px;">
+        <a href="https://wa.me/5521970573324" target="_blank"
+           style="display:inline-block; background:#25D366; color:#ffffff; padding:12px 25px; text-decoration:none; font-weight:bold; border-radius:4px; font-size:14px;">
+          NEGOCIAR AGORA
+          <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
+               alt="WhatsApp" width="16" height="16"
+               style="vertical-align:middle; margin-left:8px; border:0;">
+        </a>
+      </td>
+    </tr>
+
+    <!-- RODAPÉ (endereço) -->
+    <tr>
+      <td style="padding:20px; font-size:12px; color:#666666; text-align:center;">
+        <p>Todas as comunicações são feitas apenas por nossos canais oficiais. Este é um canal confiável.</p>
+        <p>Equipe Adriano e Couto</p>
+        <p>Av. Embaixador Abelardo Bueno, 1 /Bloco F, sala 304 - Barra da Tijuca/RJ</p>
+      </td>
+    </tr>
+
+    <!-- REDES SOCIAIS (AGORA DENTRO DA TABELA E CENTRALIZADAS) -->
+    <tr>
+      <td align="center" style="padding:20px; background:#ffffff;">
+        <p style="color:#5b5b58; font-size:14px; font-weight:bold; margin:0 0 12px 0;">
+          Nossas redes oficiais:
+        </p>
+
+        <!-- Ícones com espaçamento em porcentagem para responsividade -->
+        <a href="https://www.instagram.com/adrianoecoutoadvogados/" target="_blank" style="display:inline-block; margin:0 2%; text-decoration:none;">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+               alt="Instagram" width="36" height="36" style="display:block; border:0;">
+        </a>
+
+        <a href="https://br.linkedin.com/company/adrianoecoutoadv" target="_blank" style="display:inline-block; margin:0 2%; text-decoration:none;">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+               alt="LinkedIn" width="36" height="36" style="display:block; border:0;">
+        </a>
+
+        <a href="https://www.reclameaqui.com.br/empresa/adriano-e-couto-advogados-associados/" target="_blank" style="display:inline-block; margin:0 2%; text-decoration:none;">
+          <img src="https://www.reclameaqui.com.br/images/ra-favicon.bf3991c3.png"
+               alt="Reclame Aqui" width="36" height="36" style="display:block; border:0;">
+        </a>
+      </td>
+    </tr>
+
+  </table>
+</body>
+</html>
